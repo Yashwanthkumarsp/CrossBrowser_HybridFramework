@@ -6,39 +6,45 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Element_Address {
-	//Declaration
+	// Declaration
 	@FindBy(xpath = "//a[@href='/login']")
-	private WebElement signuplink;
+	private WebElement loginlink;
 
-	@FindBy(xpath = "//input[@data-qa='signup-name']")
-	private WebElement NameField;
-
-	@FindBy(xpath = "//input[@data-qa='signup-email']")
+	@FindBy(xpath = "//input[@data-qa='login-email']")
 	private WebElement EmailField;
 
-	@FindBy(xpath = "//button[@data-qa='signup-button']")
-	private WebElement signupbutton;
+	@FindBy(xpath = "//input[@data-qa='login-password']")
+	private WebElement PasswordField;
 
-	//Initialization
+	@FindBy(xpath = "//button[@data-qa='login-button']")
+	private WebElement loginbutton;
+
+	@FindBy(xpath = "//a[@href='/logout']")
+	private WebElement logoutbutton;
+
+	// Initialization
 	public Element_Address(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 
-	//Utilization
-	public void signuplink() {
-		signuplink.click();
-	}
-
-	public void NameField(String name) {
-		NameField.sendKeys(name);
+	// Utilization
+	public void loginlink() {
+		loginlink.click();
 	}
 
 	public void EmailField(String email) {
 		EmailField.sendKeys(email);
 	}
 
-	public void signupbutton() {
-		signupbutton.click();
+	public void PasswordField(String password) {
+		PasswordField.sendKeys(password);
 	}
 
+	public void loginbutton() {
+		loginbutton.click();
+	}
+
+	public void logoutbutton() {
+		logoutbutton.click();
+	}
 }

@@ -5,21 +5,21 @@
 	  <parameter name="browsers" value="chrome"></parameter>
     <classes>
       <class name="DataDriven.ExcelData"/>
-      <class name="DataDriven.Signup"/>
+      <class name="DataDriven.login"/>
     </classes>
   </test> <!-- Test -->
-   <test thread-count="1" name="FirefoxBrowser">
+ <test thread-count="1" name="FirefoxBrowser">
 	  <parameter name="browsers" value="firefox"></parameter>
     <classes>
       <class name="DataDriven.ExcelData"/>
-      <class name="DataDriven.Signup"/>
+      <class name="DataDriven.login"/>
     </classes>
   </test> <!-- Test -->
-   <test thread-count="1" name="EdgeBrowser">
+ <test thread-count="1" name="EdgeBrowser">
 	  <parameter name="browsers" value="edge"></parameter>
     <classes>
       <class name="DataDriven.ExcelData"/>
-      <class name="DataDriven.Signup"/>
+      <class name="DataDriven.login"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
