@@ -117,17 +117,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="DataDriven.login" class="method navigator-link" hash-for-method="logIn(yashwanth@gmail.com, Yashwanth@123)">logIn(yashwanth@gmail.com, Yashwanth@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="DataDriven.login" class="method navigator-link" hash-for-method="logIn(puni@gmail.com, Puni@123)">logIn(puni@gmail.com, Puni@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="DataDriven.login" class="method navigator-link" hash-for-method="logIn(karthi@gmail.com, Karthi@126)">logIn(karthi@gmail.com, Karthi@126)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DataDriven.login" class="method navigator-link" hash-for-method="logIn(yashwanth@gmail.com, Yashwanth@123)">logIn(yashwanth@gmail.com, Yashwanth@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -189,14 +189,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="logIn(yashwanth@gmail.com, Yashwanth@123)">
-                  </a> <!-- logIn(yashwanth@gmail.com, Yashwanth@123) -->
-                  <span class="method-name">logIn</span>
-                  <span class="parameters">(yashwanth@gmail.com, Yashwanth@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="logIn(puni@gmail.com, Puni@123)">
                   </a> <!-- logIn(puni@gmail.com, Puni@123) -->
                   <span class="method-name">logIn</span>
@@ -209,6 +201,14 @@
                   </a> <!-- logIn(karthi@gmail.com, Karthi@126) -->
                   <span class="method-name">logIn</span>
                   <span class="parameters">(karthi@gmail.com, Karthi@126)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logIn(yashwanth@gmail.com, Yashwanth@123)">
+                  </a> <!-- logIn(yashwanth@gmail.com, Yashwanth@123) -->
+                  <span class="method-name">logIn</span>
+                  <span class="parameters">(yashwanth@gmail.com, Yashwanth@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -246,22 +246,22 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;ChromeBrowser&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;ChromeBrowser&quot;&gt;
     &lt;parameter name=&quot;browsers&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;DataDriven.ExcelData&quot;/&gt;
       &lt;class name=&quot;DataDriven.login&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeBrowser --&gt;
-  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;FirefoxBrowser&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;FirefoxBrowser&quot;&gt;
     &lt;parameter name=&quot;browsers&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;DataDriven.ExcelData&quot;/&gt;
       &lt;class name=&quot;DataDriven.login&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FirefoxBrowser --&gt;
-  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;EdgeBrowser&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;EdgeBrowser&quot;&gt;
     &lt;parameter name=&quot;browsers&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;DataDriven.ExcelData&quot;/&gt;
@@ -315,39 +315,39 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'logIn')
 data.setCell(0, 2, 'DataDriven.login')
-data.setCell(0, 3, 12942);
+data.setCell(0, 3, 13969);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'logIn')
 data.setCell(1, 2, 'DataDriven.login')
-data.setCell(1, 3, 12866);
+data.setCell(1, 3, 13664);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'logIn')
 data.setCell(2, 2, 'DataDriven.login')
-data.setCell(2, 3, 12453);
+data.setCell(2, 3, 12284);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'logIn')
 data.setCell(3, 2, 'DataDriven.login')
-data.setCell(3, 3, 11440);
+data.setCell(3, 3, 8045);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'logIn')
 data.setCell(4, 2, 'DataDriven.login')
-data.setCell(4, 3, 10013);
+data.setCell(4, 3, 7609);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'logIn')
 data.setCell(5, 2, 'DataDriven.login')
-data.setCell(5, 3, 9084);
+data.setCell(5, 3, 7268);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'logIn')
 data.setCell(6, 2, 'DataDriven.login')
-data.setCell(6, 3, 7854);
+data.setCell(6, 3, 7079);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'logIn')
 data.setCell(7, 2, 'DataDriven.login')
-data.setCell(7, 3, 7558);
+data.setCell(7, 3, 6794);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'logIn')
 data.setCell(8, 2, 'DataDriven.login')
-data.setCell(8, 3, 6133);
+data.setCell(8, 3, 6560);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -380,112 +380,112 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">DataDriven.login</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">openbrowser(edge)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
                 <span class="method-name">openbrowser(chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">openbrowser(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logIn(yashwanth@gmail.com, Yashwanth@123)</span>
-                <span class="method-start">8119 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logIn(yashwanth@gmail.com, Yashwanth@123)</span>
-                <span class="method-start">8472 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logIn(yashwanth@gmail.com, Yashwanth@123)</span>
-                <span class="method-start">13912 ms</span>
+                <span class="method-start">7490 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closebrowser</span>
-                <span class="method-start">15975 ms</span>
+                <span class="method-start">15106 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openbrowser(chrome)</span>
-                <span class="method-start">18561 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">closebrowser</span>
-                <span class="method-start">19915 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">openbrowser(edge)</span>
-                <span class="method-start">22281 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">closebrowser</span>
-                <span class="method-start">22999 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">logIn(karthi@gmail.com, Karthi@126)</span>
-                <span class="method-start">25423 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">openbrowser(firefox)</span>
-                <span class="method-start">28403 ms</span>
+                <span class="method-start">17364 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logIn(karthi@gmail.com, Karthi@126)</span>
-                <span class="method-start">29424 ms</span>
+                <span class="method-start">21851 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closebrowser</span>
-                <span class="method-start">38292 ms</span>
+                <span class="method-start">35824 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">logIn(karthi@gmail.com, Karthi@126)</span>
-                <span class="method-start">39736 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">openbrowser(chrome)</span>
-                <span class="method-start">40644 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">closebrowser</span>
-                <span class="method-start">41878 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">openbrowser(edge)</span>
-                <span class="method-start">44266 ms</span>
+                <span class="method-start">38049 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logIn(puni@gmail.com, Puni@123)</span>
-                <span class="method-start">48860 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logIn(puni@gmail.com, Puni@123)</span>
-                <span class="method-start">49225 ms</span>
+                <span class="method-start">42563 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closebrowser</span>
-                <span class="method-start">52682 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">closebrowser</span>
-                <span class="method-start">55359 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">closebrowser</span>
-                <span class="method-start">56420 ms</span>
+                <span class="method-start">49360 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openbrowser(firefox)</span>
-                <span class="method-start">57252 ms</span>
+                <span class="method-start">51663 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">logIn(puni@gmail.com, Puni@123)</span>
-                <span class="method-start">66799 ms</span>
+                <span class="method-name">logIn(yashwanth@gmail.com, Yashwanth@123)</span>
+                <span class="method-start">60689 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closebrowser</span>
-                <span class="method-start">76813 ms</span>
+                <span class="method-start">67959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser(firefox)</span>
+                <span class="method-start">71626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logIn(karthi@gmail.com, Karthi@126)</span>
+                <span class="method-start">80278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">93945 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser(firefox)</span>
+                <span class="method-start">97570 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logIn(puni@gmail.com, Puni@123)</span>
+                <span class="method-start">105288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">111851 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser(edge)</span>
+                <span class="method-start">115639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logIn(yashwanth@gmail.com, Yashwanth@123)</span>
+                <span class="method-start">120379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">128426 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser(edge)</span>
+                <span class="method-start">130748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logIn(karthi@gmail.com, Karthi@126)</span>
+                <span class="method-start">134900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">147186 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser(edge)</span>
+                <span class="method-start">149587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logIn(puni@gmail.com, Puni@123)</span>
+                <span class="method-start">154346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">161426 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

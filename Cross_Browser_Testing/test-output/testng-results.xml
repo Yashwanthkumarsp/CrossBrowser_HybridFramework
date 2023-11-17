@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-16T12:42:43Z" name="Suite" finished-at="2023-11-16T12:44:04Z" duration-ms="81808">
+  <suite started-at="2023-11-17T06:23:54Z" name="Suite" finished-at="2023-11-17T06:26:39Z" duration-ms="165170">
     <groups>
     </groups>
-    <test started-at="2023-11-16T12:42:43Z" name="EdgeBrowser" finished-at="2023-11-16T12:43:42Z" duration-ms="59038">
+    <test started-at="2023-11-17T06:23:54Z" name="ChromeBrowser" finished-at="2023-11-17T06:24:47Z" duration-ms="53016">
       <class name="DataDriven.login">
-        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-16T12:42:44Z" name="openbrowser" finished-at="2023-11-16T12:42:52Z" duration-ms="8471" status="PASS">
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-17T06:23:55Z" name="openbrowser" finished-at="2023-11-17T06:24:03Z" duration-ms="7490" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-16T12:42:52Z" name="logIn" data-provider="Yash" finished-at="2023-11-16T12:43:04Z" duration-ms="11440" status="PASS">
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-17T06:24:03Z" name="logIn" data-provider="Yash" finished-at="2023-11-17T06:24:10Z" duration-ms="7609" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,22 +34,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-16T12:43:04Z" name="closebrowser" finished-at="2023-11-16T12:43:06Z" duration-ms="2366" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-17T06:24:10Z" name="closebrowser" finished-at="2023-11-17T06:24:13Z" duration-ms="2258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-16T12:43:06Z" name="openbrowser" finished-at="2023-11-16T12:43:13Z" duration-ms="7143" status="PASS">
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-17T06:24:13Z" name="openbrowser" finished-at="2023-11-17T06:24:17Z" duration-ms="4487" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-16T12:43:13Z" name="logIn" data-provider="Yash" finished-at="2023-11-16T12:43:26Z" duration-ms="12453" status="PASS">
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-17T06:24:17Z" name="logIn" data-provider="Yash" finished-at="2023-11-17T06:24:31Z" duration-ms="13969" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,22 +65,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-16T12:43:26Z" name="closebrowser" finished-at="2023-11-16T12:43:28Z" duration-ms="2387" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-17T06:24:31Z" name="closebrowser" finished-at="2023-11-17T06:24:33Z" duration-ms="2225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-16T12:43:28Z" name="openbrowser" finished-at="2023-11-16T12:43:33Z" duration-ms="4958" status="PASS">
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-17T06:24:33Z" name="openbrowser" finished-at="2023-11-17T06:24:38Z" duration-ms="4514" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-16T12:43:33Z" name="logIn" data-provider="Yash" finished-at="2023-11-16T12:43:39Z" duration-ms="6133" status="PASS">
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-17T06:24:38Z" name="logIn" data-provider="Yash" finished-at="2023-11-17T06:24:45Z" duration-ms="6794" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,112 +96,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-16T12:43:39Z" name="closebrowser" finished-at="2023-11-16T12:43:42Z" duration-ms="2281" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- DataDriven.login -->
-    </test> <!-- EdgeBrowser -->
-    <test started-at="2023-11-16T12:42:43Z" name="ChromeBrowser" finished-at="2023-11-16T12:43:43Z" duration-ms="60076">
-      <class name="DataDriven.login">
-        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-16T12:42:44Z" name="openbrowser" finished-at="2023-11-16T12:42:52Z" duration-ms="8119" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-16T12:42:52Z" name="logIn" data-provider="Yash" finished-at="2023-11-16T12:43:00Z" duration-ms="7854" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[yashwanth@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Yashwanth@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-16T12:43:00Z" name="closebrowser" finished-at="2023-11-16T12:43:03Z" duration-ms="2585" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-16T12:43:03Z" name="openbrowser" finished-at="2023-11-16T12:43:09Z" duration-ms="6862" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-16T12:43:09Z" name="logIn" data-provider="Yash" finished-at="2023-11-16T12:43:22Z" duration-ms="12866" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[karthi@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Karthi@126]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-16T12:43:22Z" name="closebrowser" finished-at="2023-11-16T12:43:25Z" duration-ms="2352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-16T12:43:25Z" name="openbrowser" finished-at="2023-11-16T12:43:33Z" duration-ms="8215" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-16T12:43:33Z" name="logIn" data-provider="Yash" finished-at="2023-11-16T12:43:40Z" duration-ms="7558" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[puni@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Puni@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-16T12:43:40Z" name="closebrowser" finished-at="2023-11-16T12:43:43Z" duration-ms="2259" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@12359a82]" started-at="2023-11-17T06:24:45Z" name="closebrowser" finished-at="2023-11-17T06:24:47Z" duration-ms="2235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- DataDriven.login -->
     </test> <!-- ChromeBrowser -->
-    <test started-at="2023-11-16T12:42:43Z" name="FirefoxBrowser" finished-at="2023-11-16T12:44:04Z" duration-ms="81808">
+    <test started-at="2023-11-17T06:24:47Z" name="FirefoxBrowser" finished-at="2023-11-17T06:25:51Z" duration-ms="63975">
       <class name="DataDriven.login">
-        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-16T12:42:44Z" name="openbrowser" finished-at="2023-11-16T12:42:58Z" duration-ms="13912" status="PASS">
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-17T06:24:47Z" name="openbrowser" finished-at="2023-11-17T06:24:56Z" duration-ms="9026" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -212,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-16T12:42:58Z" name="logIn" data-provider="Yash" finished-at="2023-11-16T12:43:07Z" duration-ms="9084" status="PASS">
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-17T06:24:56Z" name="logIn" data-provider="Yash" finished-at="2023-11-17T06:25:03Z" duration-ms="7268" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -228,11 +131,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-16T12:43:07Z" name="closebrowser" finished-at="2023-11-16T12:43:12Z" duration-ms="5403" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-17T06:25:03Z" name="closebrowser" finished-at="2023-11-17T06:25:07Z" duration-ms="3667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-16T12:43:12Z" name="openbrowser" finished-at="2023-11-16T12:43:24Z" duration-ms="11333" status="PASS">
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-17T06:25:07Z" name="openbrowser" finished-at="2023-11-17T06:25:15Z" duration-ms="8652" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -243,7 +146,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-16T12:43:24Z" name="logIn" data-provider="Yash" finished-at="2023-11-16T12:43:37Z" duration-ms="12942" status="PASS">
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-17T06:25:15Z" name="logIn" data-provider="Yash" finished-at="2023-11-17T06:25:29Z" duration-ms="13664" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -259,11 +162,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-16T12:43:37Z" name="closebrowser" finished-at="2023-11-16T12:43:41Z" duration-ms="4570" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-17T06:25:29Z" name="closebrowser" finished-at="2023-11-17T06:25:33Z" duration-ms="3624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-16T12:43:41Z" name="openbrowser" finished-at="2023-11-16T12:43:51Z" duration-ms="9547" status="PASS">
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-17T06:25:33Z" name="openbrowser" finished-at="2023-11-17T06:25:40Z" duration-ms="7718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -274,7 +177,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-16T12:43:51Z" name="logIn" data-provider="Yash" finished-at="2023-11-16T12:44:01Z" duration-ms="10013" status="PASS">
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-17T06:25:40Z" name="logIn" data-provider="Yash" finished-at="2023-11-17T06:25:47Z" duration-ms="6560" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -290,11 +193,108 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-16T12:44:01Z" name="closebrowser" finished-at="2023-11-16T12:44:04Z" duration-ms="3598" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@67545b57]" started-at="2023-11-17T06:25:47Z" name="closebrowser" finished-at="2023-11-17T06:25:51Z" duration-ms="3742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- DataDriven.login -->
     </test> <!-- FirefoxBrowser -->
+    <test started-at="2023-11-17T06:25:51Z" name="EdgeBrowser" finished-at="2023-11-17T06:26:39Z" duration-ms="48151">
+      <class name="DataDriven.login">
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-17T06:25:51Z" name="openbrowser" finished-at="2023-11-17T06:25:56Z" duration-ms="4740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-17T06:25:56Z" name="logIn" data-provider="Yash" finished-at="2023-11-17T06:26:04Z" duration-ms="8045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yashwanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yashwanth@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-17T06:26:04Z" name="closebrowser" finished-at="2023-11-17T06:26:06Z" duration-ms="2322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-17T06:26:06Z" name="openbrowser" finished-at="2023-11-17T06:26:10Z" duration-ms="4152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-17T06:26:10Z" name="logIn" data-provider="Yash" finished-at="2023-11-17T06:26:22Z" duration-ms="12284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karthi@126]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-17T06:26:22Z" name="closebrowser" finished-at="2023-11-17T06:26:25Z" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-17T06:26:25Z" name="openbrowser" finished-at="2023-11-17T06:26:30Z" duration-ms="4759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-17T06:26:30Z" name="logIn" data-provider="Yash" finished-at="2023-11-17T06:26:37Z" duration-ms="7079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[puni@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Puni@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:DataDriven.login@4716be8b]" started-at="2023-11-17T06:26:37Z" name="closebrowser" finished-at="2023-11-17T06:26:39Z" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- DataDriven.login -->
+    </test> <!-- EdgeBrowser -->
   </suite> <!-- Suite -->
 </testng-results>

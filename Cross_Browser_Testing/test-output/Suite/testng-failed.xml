@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="ChromeBrowser(failed)">
-    <parameter name="browsers" value="chrome"/>
-    <classes>
-      <class name="DataDriven.login">
-        <methods>
-          <include name="openbrowser"/>
-          <include name="normal" invocation-numbers="0"/>
-          <include name="closebrowser"/>
-        </methods>
-      </class> <!-- DataDriven.login -->
-    </classes>
-  </test> <!-- ChromeBrowser(failed) -->
-  <test thread-count="5" parallel="tests" name="FirefoxBrowser(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxBrowser(failed)">
     <parameter name="browsers" value="firefox"/>
     <classes>
-      <class name="DataDriven.login">
+      <class name="DataDriven.Contact_Us">
         <methods>
+          <include name="logIn" invocation-numbers="0 1 2"/>
           <include name="openbrowser"/>
-          <include name="normal" invocation-numbers="0"/>
           <include name="closebrowser"/>
         </methods>
-      </class> <!-- DataDriven.login -->
+      </class> <!-- DataDriven.Contact_Us -->
     </classes>
   </test> <!-- FirefoxBrowser(failed) -->
 </suite> <!-- Failed suite [Suite] -->

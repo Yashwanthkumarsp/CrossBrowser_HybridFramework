@@ -12,7 +12,8 @@ import org.testng.annotations.Test;
 public class ExcelData {
 	@Test
 	public static Object[][] exceldata(String sheetname) throws EncryptedDocumentException, IOException {
-		FileInputStream Fs = new FileInputStream("./src/test/resources/Files/Data_Login.xlsx");
+		String filepath="./src/test/resources/Files/Data_Login.xlsx";
+		FileInputStream Fs = new FileInputStream(filepath);
 		Workbook wb = WorkbookFactory.create(Fs);
 		Sheet sheet = wb.getSheet(sheetname);
 		int row = sheet.getPhysicalNumberOfRows();
